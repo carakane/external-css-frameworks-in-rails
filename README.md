@@ -4,7 +4,7 @@
 Loading stylesheets into our application can be done a few different ways in Rails. We can use HTML link tags for CSS located on another server. We can place third party CSS files in our vendor folder.  We can also use gems to load the CSS frameworks we need like Twitter Bootstrap.
 
 ## External Stylesheets
-So far we have been loading CSS from our asset directories. You aren't required to do it this way, but it does allow us to easily manage our CSS. The other way to load CSS is by using standard HTML `<style>` tags placed in the `<head>` tag of our application layout. There are benefits to using this approach. We can load stylesheets from other peoples CDNs without having to set one up ourselves. This can save us bandwidth and help with download speeds for users throughout the world. To load CSS like this, we create HTML link tags in the `<head>` of our application layout file.
+So far we have been loading CSS from our asset directories. You aren't required to do it this way, but it does allow us to easily manage our CSS. The other way to load CSS is by using standard HTML `<style>` tags placed in the `<head>` tag of our application layout. There are benefits to using this approach. We can load stylesheets from other people's CDNs without having to set one up ourselves. This can save us bandwidth and help with download speeds for users throughout the world. To load CSS like this, we create HTML link tags in the `<head>` of our application layout file.
 
 ```html
 <head>
@@ -25,4 +25,4 @@ To install the Twitter Bootstrap gem in our Gemfile, you will need to add `gem "
 ## References
 - [Bootstrap SASS Gem](https://github.com/twbs/bootstrap-sass)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/external-css-frameworks-in-rails' title='External CSS Libraries in Rails'>External CSS Libraries in Rails</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/external-css-frameworks-in-rails'>External CSS Frameworks In Rails</a> on Learn.co and start learning to code for free.</p>
